@@ -18,8 +18,8 @@ body {
 }
 
 .cabecalho-imagem {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
 }
 
 .cabecalho-item {
@@ -27,9 +27,24 @@ body {
     padding: 0 20px; 
     text-decoration: underline;
 }
+.turma-titulo {
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+}
 
+.turma-div{
+    display: flex;
+    justify-content: center;
+}
 
 .turma {
     background-image: linear-gradient(rgba(6, 19, 95, 0.705), rgba(182, 182, 182, 0));
-    padding: 30px;
+    padding: 50px;
+ 
+}
+.turma-imagem {
+    width: 750px;
+    height: 600px;
+    margin: 10px;
 }
