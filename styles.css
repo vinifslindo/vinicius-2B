@@ -1,4 +1,4 @@
-/* Reset de margens e preenchimentos */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -8,10 +8,9 @@ body {
     font-family: sans-serif;
 }
 
-/* Estilo do cabeçalho */
 .cabecalho {
     background-color: rgba(15, 29, 105, 0.705);
-    color: white; /* Adicionando cor do texto */
+    color: white;
     display: flex;
     padding: 15px;
     font-size: 24px;
@@ -25,11 +24,11 @@ body {
 
 .cabecalho-item {
     display: inline-block;
-    padding: 0 20px; /* Reduzindo o espaçamento para melhor ajuste */
+    padding: 0 20px; 
     text-decoration: underline;
 }
 
-/* Estilo da seção Turma */
+
 .turma {
     background-image: linear-gradient(rgba(6, 19, 95, 0.705), rgba(182, 182, 182, 0));
     padding: 30px;
